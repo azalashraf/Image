@@ -1,7 +1,7 @@
 body{
     margin:0;
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg,#ffd6e8,#ffe8f1,#ffecf5);
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#ffd6e8,#ffe8f1,#ffecf5);
     height:100vh;
     display:flex;
     justify-content:center;
@@ -12,7 +12,7 @@ body{
 
 .container{
     width:90%;
-    max-width:380px;
+    max-width:400px;
     text-align:center;
 }
 
@@ -31,14 +31,7 @@ button{
     cursor:pointer;
 }
 
-#revealMessage{
-    margin-top:20px;
-    font-size:1.2rem;
-    opacity:0;
-    transition:1s;
-}
-
-#popup{
+.popup{
     position:absolute;
     bottom:-100%;
     left:50%;
@@ -55,7 +48,6 @@ button{
     border:1px solid rgba(255,255,255,0.5);
 }
 
-/* Hearts */
 .heart{
     position:fixed;
     bottom:-10px;
