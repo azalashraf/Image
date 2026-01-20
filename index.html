@@ -9,16 +9,17 @@
 <body>
 
 <div class="container">
-    <h2>Enter your name 💗</h2>
-    <input type="text" id="inputName" placeholder="Type here...">
-    <button onclick="checkName()">Reveal</button>
+    <h2>Enter your names 💗</h2>
 
-    <div id="revealMessage">You are the one I wished for 🌸</div>
+    <input type="text" id="name1" placeholder="Person 1 name...">
+    <button onclick="checkPerson1()">Reveal Message 1</button>
+
+    <input type="text" id="name2" placeholder="Person 2 name...">
+    <button onclick="checkPerson2()">Reveal Message 2</button>
 </div>
 
-<div id="popup">
-    🤍 I don't know what fate is, but I know it brought me to you 🤍
-</div>
+<div id="popup1" class="popup">🤍 Message for Person 1 🤍</div>
+<div id="popup2" class="popup">🤍 Message for Person 2 🤍</div>
 
 <script src="script.js"></script>
 </body>
